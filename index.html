@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>💖 Saint-Valentin 💖</title>
+
+  <style>
+    body {
+      background: linear-gradient(135deg, #ffccd5, #ffe6eb);
+      font-family: "Segoe UI", Arial, sans-serif;
+      text-align: center;
+      padding-top: 60px;
+    }
+
+    .card {
+      background: white;
+      width: 90%;
+      max-width: 500px;
+      margin: auto;
+      padding: 35px;
+      border-radius: 20px;
+      box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    }
+
+    img {
+      width: 200px;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      color: #d6336c;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 18px;
+      color: #444;
+      margin-bottom: 25px;
+    }
+
+    button {
+      font-size: 18px;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      margin: 10px;
+    }
+
+    .yes {
+      background-color: #ff4d6d;
+      color: white;
+    }
+
+    .no {
+      background-color: #adb5bd;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+
+    <!-- 🌸 IMAGE DE BOB L'ÉPONGE -->
+    <!-- 🔴 TU PEUX CHANGER LE LIEN DE L’IMAGE ICI SI TU VEUX -->
+    <img src="https://i.pinimg.com/originals/87/8b/44/878b447ecdbb9a5c1b1c7a8e7cb1b0f7.png" alt="Bob l'éponge avec une fleur">
+
+    <!-- 🔴 ICI TU METS LE PRÉNOM -->
+    <h1>💘 Pour <span>Cyndi</span> 💘</h1>
+
+    <!-- 🔴 ICI TU METS TON MESSAGE -->
+    <p>
+      Merci d'être entré dans ma vie, depuis tu es devenue ma plus grande star. 
+    </p>
+
+    <h2>Veux-tu être ma Valentine ? </h2>
+
+    <button class="yes" onclick="oui()">Oui 💖</button>
+    <button class="no" onclick="non()">Non 😢</button>
+
+  </div>
+
+  <script>
+    function oui() {
+      alert(" Of course !!! 😘");
+    }
+
+    function non() {
+      alert("Tu n'as pas le choix c'est encore un oui !");
+    }
+  </script>
+
+</body>
+</html>
